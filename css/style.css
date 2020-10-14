@@ -1,0 +1,158 @@
+.bold{
+	font-weight:bold;
+}
+.gray{
+	color:#333;
+}
+#bar_top{
+	width: 100%; 
+	height: 30px; 
+	background: #4455ee;
+}
+#container{
+	width: 1000px;
+	margin: 0 auto 0 auto;
+
+}
+#sidebar{
+	width: 20%;
+	float: left;
+	padding: 10px 10px 0 0;
+}
+#sidebar #photo{
+	margin-bottom:10px;
+}
+#sidebar #photo img{
+	border: 1px solid #777;
+	width:100%;
+	padding:5px;
+	background:#fff;
+	border-radius: 5px;  
+}
+#sidebar #nome{
+	margin-bottom:10px;
+}
+#sidebar #nome h3{
+	font-size:20px;
+	margin-bottom:5px;
+}
+#sidebar #nome h5{
+	font-size:16px;
+	color:#777;
+}
+#menu_sidebar{
+	margin-bottom:10px;
+}
+#menu_sidebar li{
+}
+#menu_sidebar li a{
+	padding:10px;
+	display:block;
+	border-left:5px solid transparent;
+	color:#777;
+	text-decoration:none;
+	font-weight:bold;
+}
+#menu_sidebar li a:hover{
+	background:#ddd;
+	border-color:#0000ff;
+	color:#333;
+}
+#main{
+	width: 80%;
+	float: right;
+}
+#capa{
+	height: 200px;
+	width: 100%;
+	background: #099;
+}
+#capa h1{
+	width:800;
+	height:200px;
+	display:block;
+	background:transparent url(../images/cover.jpg);
+	text-indent:-99999px;
+}
+#barra{
+	padding:10px 0 10px 0;
+}
+#barra ul{
+	
+}
+#barra ul li{
+	float:left;
+	margin-right:10px;
+}
+#barra ul li a{
+	text-decoration:none;
+	color:#777;
+	font-size:12px;
+	border:1px solid #999;
+	background:#ddd;	padding:5px;
+	border-radius:3px;
+	display:block;
+}
+#barra ul li a:hover{
+	color:#333;
+	border-color:#777;
+	background:#ccc;
+}
+#content{
+	
+}
+#timeline{
+	width: 60%;
+	float: left;
+}
+#status{
+	border:1px solid #999;
+	border-radius:3px;
+	padding:10px;
+	margin-bottom:10px;
+}
+#formPost{
+
+}
+#formPost textarea{
+	width:100%;
+	height:50px;
+	resize:none;
+	border:0;
+}
+#formPost{
+	
+}
+#posts{
+
+}
+.post{
+	margin-bottom:10px;
+	border:1px solid #999;
+	border-radius:3px;
+	padding:10px;
+}
+.button{
+	padding:5px;
+	border:1px solid #999;
+	background:#ddd;
+	color:#555;
+	cursor:pointer;
+}
+.button:hover{
+	border:1px solid #777;
+	background:#ccc;
+	color:#333;
+}
+.block{
+	display:block;
+}
+.right{
+	float:right;
+}
+#widgets{
+	padding-left: 10px;
+	width: 40%;
+	float: right;
+}
+.widget{border:1px solid #999;padding:10px;margin-bottom:10px;}
